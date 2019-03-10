@@ -1,12 +1,12 @@
-## Excellence HR System (```v 2.0.0```)
+## Excellence HR System
 Upgraded To create-react-app framework
 
 ## Getting Started
 
 
 ```bash
-$ git clone https://github.com/reactexcel/ReactReduxHR.git
-$ cd ReactReduxHR
+$ git clone https://github.com/wmgstar/ReactReduxHRS.git
+$ cd ReactReduxHRS
 $ npm install                   # Install project dependencies
 ```
 #### Setup enviornment with any one of the below methods.
@@ -61,7 +61,7 @@ $ rm -rf *
 
   4. Go to the project directory and build the app
 ```bash
-$ cd ~/public_html/ReactReduxHR
+$ cd ~/public_html/ReactReduxHRS
 $ git pull origin dev      # take pull from updated branch which you want to deploy (must be CRA framework)
 $ npm run build            # Before build make sure is has .env file and base url(`REACT_APP_BASE_URL`) set in it . 
 $ mv ./build/*  ~/public_html/hr/cra/   # move the build to the server directory.
@@ -70,7 +70,7 @@ $ mv ./build/*  ~/public_html/hr/cra/   # move the build to the server directory
   It's done !
   You can now run the dev server `http://dev.hr.excellencetechnologies.in/hr/cra/#/` in your browser.
 
-  NOTE: if `ReactReduxHR` not exist, then you have first clone the project and then follow the above steps.
+  NOTE: if `ReactReduxHRS` not exist, then you have first clone the project and then follow the above steps.
 
 
 ### Run Cypress Tests
@@ -232,7 +232,7 @@ body{
 
 ```
 ERROR in ./~/css-loader!./~/sass-loader!./~/postcss-loader!./src/styles/main.scss
-Module build failed: Error: ENOENT: no such file or directory, scandir '/var/www/html/UpworkTest/ReactReduxHR/node_modules/node-sass/vendor'
+Module build failed: Error: ENOENT: no such file or directory, scandir '/var/www/html/UpworkTest/ReactReduxHRS/node_modules/node-sass/vendor'
 ```  
 In case of this error run the `npm rebuild node-sass --force`. 
 
